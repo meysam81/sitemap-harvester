@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sitemap-harvester"
-version = "1.0.2"
+version = "1.0.3"
 authors = [
     {name = "Meysam Azad", email = "meysam@developer-friendly.blog"},
 ]
