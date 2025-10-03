@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.4](https://github.com/meysam81/sitemap-harvester/compare/v1.0.3...v1.0.4) (2025-10-03)
+
+
+### Bug Fixes
+
+* **CI:** only release on pypi env ([97e78b5](https://github.com/meysam81/sitemap-harvester/commit/97e78b50ddbf596da67b624c3a5b97ec38a5fa45))
+* **CI:** publish after release please ([1c644b1](https://github.com/meysam81/sitemap-harvester/commit/1c644b14a045250abca0b10dc4ee529658adadae))
+* move cli to harvester package ([49274e7](https://github.com/meysam81/sitemap-harvester/commit/49274e716f3fa552f0bea47c3d48c970b3336639))
+
 ## [1.0.3](https://github.com/meysam81/sitemap-harvester/compare/v1.0.2...v1.0.3) (2025-10-03)
 
 
