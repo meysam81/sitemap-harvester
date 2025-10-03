@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/meysam81/sitemap-harvester/compare/v1.0.4...v1.0.5) (2025-10-03)
+
+
+### Bug Fixes
+
+* account for malformed scheme and default to https ([a888097](https://github.com/meysam81/sitemap-harvester/commit/a8880970608f6c87639f21b6378e4155746b0985))
+
 ## [1.0.4](https://github.com/meysam81/sitemap-harvester/compare/v1.0.3...v1.0.4) (2025-10-03)
 
 
