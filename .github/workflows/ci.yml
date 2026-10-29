@@ -19,9 +19,10 @@ jobs:
     steps:
       - id: release-please
         name: Release please
-        uses: googleapis/release-please-action@v4
+        uses: googleapis/release-please-action@45996ed1f6d02564a971a2fa1b5860e934307cf7 # v5.0.0
         with:
-          release-type: python
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json
 
   pypi-publish:
     needs: release-please
@@ -34,9 +35,9 @@ jobs:
       id-token: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
         with:
           python-version: "3.x"
       - name: Install build tools
@@ -44,4 +45,4 @@ jobs:
       - name: Build package
         run: python3 -m build --wheel --sdist --no-isolation
       - name: Publish to PyPI
-        uses: pypa/gh-action-pypi-publish@release/v1
+        uses: pypa/gh-action-pypi-publish@7245906fb61fa33a13554f9d5fb856fe61758086 # release/v1
