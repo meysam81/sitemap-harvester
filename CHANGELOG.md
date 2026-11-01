@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.0.6](https://github.com/meysam81/sitemap-harvester/compare/v1.0.5...v1.0.6) (2026-11-01)
+
+
+### Chores
+
+* **deps:** update precommit hooks ([548de24](https://github.com/meysam81/sitemap-harvester/commit/548de2461fd4b08ebec073614d7927e64fb92a34))
+* **local:** create flake devshell ([87cef05](https://github.com/meysam81/sitemap-harvester/commit/87cef057a7e2a5fcbaea3c5b2b19096f4ebc8e64))
+
+
+### CI
+
+* pin actions to commit SHAs, renovate on the shared preset, release-please manifest config ([#15](https://github.com/meysam81/sitemap-harvester/issues/15)) ([953c971](https://github.com/meysam81/sitemap-harvester/commit/953c971bfdfe2d568bf4040c2584dde32a18965e))
+
 ## [1.0.5](https://github.com/meysam81/sitemap-harvester/compare/v1.0.4...v1.0.5) (2025-10-03)
 
 
